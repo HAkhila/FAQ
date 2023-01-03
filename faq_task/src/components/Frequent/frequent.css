@@ -1,0 +1,120 @@
+
+
+.FrequentlyAsked {
+    font-size: 48px;
+    color: #472E8D;
+    margin-right: 710px;
+    margin-top: 37px;
+}
+
+.flex-containerFrequently {
+    display: flex;
+    flex-flow: row wrap;
+    width: 35%;
+    height: 100%;
+    margin-top: 46px;
+    margin-left: 270px;
+
+}
+
+.flex-containerFrequently button {
+    display: inline-flex;
+    margin: 5px;
+    margin-left: 13px;
+    background-color: #fff;
+    border-radius: 12px;
+    border-color: #fcf8f8;
+    box-shadow: 0 5px #fff;
+    z-index: 2;
+    font-size: 20px;
+    padding: 26px;
+    line-height: 3px;
+    width: fit-content;
+}
+/* .flexFaqQuestionContainer{
+    margin-top: -36px;
+    height: 32px;
+    width: 777px;
+ background-image: none;
+ background-color: #fff;
+    margin-left: 1042px;
+   position: absolute;
+   
+  
+   
+} */
+
+.flexQuestion {
+    width: 587px;
+    margin-left: 83em;
+    margin-top: -32.3em;
+    font-size: 15px;
+    text-align: left;
+    line-height: 30px;
+    position: absolute;
+    z-index: 1;
+    height: 226px;
+    background-color: white;
+    padding-top: 120px;
+   
+
+}
+
+.questionFaq {
+    margin-bottom: 24px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.answerFaq {
+    font-size: 18px;
+    line-height: 20px;
+    overflow: hidden;
+    transition: all 0.10s cubic-bezier(0, 1, 0, 1);
+    margin-bottom: 15px;
+}
+
+.answerFaq {
+    transition: all 0.10s cubic-bezier(1, 0, 1, 0);
+    max-height: 1000px;
+}
+
+.show {
+    transition: all 0.10s cubic-bezier(1, 0, 1, 0);
+    max-height: 1000px;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    background: transparent;
+    margin-bottom: 5px;
+    padding: 10px 20 px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.content.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}

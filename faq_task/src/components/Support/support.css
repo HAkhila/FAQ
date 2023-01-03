@@ -1,0 +1,45 @@
+.flex-container-SupportCard {
+    width: 1650px;
+    height: 366px;
+    top: 1656px;
+    left: 128px;
+    background-color: #70000000;
+    margin-top: 295px;
+    margin-left: 150px;
+    margin-bottom: 128px;
+    background-image: url(../../Images/image\ 171.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgba(71, 46, 141, 0.03);
+}
+.helpCardHeading {
+    font-size: 32px;
+    margin-right: 850px;
+    padding-top: 80px;
+}
+
+.hand {
+    margin-right: 40px;
+}
+
+.helpHeadingContainer {
+    margin-top: 10px;
+    width: 464px;
+    text-align: left;
+    margin-left: 157px;
+    font-size: 30px;
+    color: #AAAAAA;
+}
+.support {
+    width: 204px;
+    height: 68px;
+    left: calc(50% - 204px/2 - 626px);
+    top: calc(50% - 68px/2 + 770.5px);
+    color: white;
+    background: #472E8D;
+    border: 0.3px solid #21134A;
+    border-radius: 10px;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-right: 270px;
+}

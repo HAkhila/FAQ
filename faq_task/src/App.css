@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+
+@font-face {
+  font-family: GilroyMedium ;
+  src: url(../src/fonts/Gilroy-Medium.ttf);
+}
+
+#root{
+  font-family: GilroyMedium, GilroyBold;
+}
+
+@font-face {
+  font-family: GilroyBold;
+  src: url(../src/fonts/Gilroy-Bold.ttf);
+}
